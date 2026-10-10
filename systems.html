@@ -171,6 +171,23 @@ h1{
     font-family: 'SF Mono', monospace, system-ui;
     font-weight:600;
     }
+@keyframes pageFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);   
+    }
+}
+
+.page-wrapper {
+    width: 100%;
+    
+    animation: pageFadeUp 1.85s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
         </style>
     </head>
     <body>
