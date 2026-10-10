@@ -136,6 +136,22 @@ h1{
     text-align: center; margin-top: 417px; margin-bottom: 50px; width: 100%;
     display: block; 
 }
+ @keyframes pageFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);   
+    }
+}
+
+.page-wrapper {
+    width: 100%;
+    
+    animation: pageFadeUp 1.85s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
  
         </style>
     </head>
@@ -152,9 +168,9 @@ h1{
                  </ul>
             </div>
         </nav>
-<section>
-<div class="page-wrapper">
 
+<div class="page-wrapper">
+  <section>
     <div class="intro-text">
     <h1> research and papers </h1>
             <p class="p1">
