@@ -104,9 +104,27 @@ section li {
     display: block;
 
 }
+    @keyframes pageFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);   
+    }
+}
+
+.page-wrapper {
+    width: 100%;
+    
+    animation: pageFadeUp 1.85s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
         </style>
     </head>
     <body>
+        <div class="page-wrapper">
+        <section>
         <nav class="navbar">
             <div class="navdiv">
                 <div class = "logo"><img src="db.png" alt = "David Busha" width="90" height="49"></div>
@@ -121,33 +139,32 @@ section li {
              </div>
         </nav>
 
-        <section>
+        
     <h1> who am i exactly?</h1>
-    </section>
 
-        <section>
+
+       
             <p class="p1"> there's a lot to know about me, but to give you the rundown: </p>
-        </section>
+      
 
-    <section>
+    
            <ul>
             <li>name / david busha</li>
             <li>origin / toronto, of ethiopian descent</li>
             <li>residency / moved to ethiopia at 6</li>
             <li>timeline / lived and operated here for the past decade</li>
            </ul>
-    </section>
+   
 
-    <section>
+    
     <h2> achievements (so far)</h2>
-    </section>
-    <section>
+    
            <ul>
             <li>silver-medalist at the 6th african spelling bee (2x appearances for ethiopia)</li>
             <li>live in ethiopia for 10 years</li>
             <li>completed sophomore year</li>
            </ul>
-    </section>
+   
 
         <section>
 
