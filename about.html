@@ -36,15 +36,13 @@ body{
   width: 100%;
   color: #e0e0e0;
   padding: 0;
-  max-width: 1500px;
-  min-width: 800px;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding-right:  0px; padding-left: 0px;
   margin-top: 30px;
   justify-content: center;
-  gap: 60px;
+  gap: 80px;
 }
 body {
     max-width: 1500px;
@@ -75,14 +73,25 @@ h2{
         object-fit: cover;
     }
    
-section li {
+section li a{
    color: rgb(134, 133, 133);
    font-family:'SF Mono', monospace, system-ui;
    font-weight: bold;
    max-width: none;
    line-height: 1.2;
    display: block;
-   margin-left:270.35px;
+   margin-left: 0px;
+   margin-top: 65px; margin-bottom:16px;
+
+}
+section li{
+   color: rgb(134, 133, 133);
+   font-family:'SF Mono', monospace, system-ui;
+   font-weight: bold;
+   max-width: none;
+   line-height: 1.2;
+   display: block;
+   margin-left: 270.35px;
    margin-top: 65px; margin-bottom:16px;
 
 }
@@ -96,9 +105,19 @@ section li {
     font-size: 21.5px;
     
 }
+.p2{
+    color: rgb(134, 133, 133);
+    font-size: 20px;
+    text-align: left; margin-left: 309.5px; margin-top: 12px;
+    max-width: 700px;
+    font-family: 'SF Mono', monospace, system-ui;
+    font-weight: bold;
+    
+    
+}
 
-.p2 {
-    color:#4c4c4c;
+.p3 {
+   color:#4c4c4c;
     font-size: 10px;
     font-family:'SF Mono', monospace, system-ui;
     font-weight: bold;
@@ -106,11 +125,9 @@ section li {
     display: block;
 
 }
-</style>
+        </style>
     </head>
-   <body>
-
-        <section>
+    <body>
         <nav class="navbar">
             <div class="navdiv">
                 <div class = "logo"><img src="db.png" alt = "David Busha" width="90" height="49"></div>
@@ -119,45 +136,48 @@ section li {
                      <li><a href="/about"> about</a></li>
                      <li><a href="/pursuits"> pursuits</a></li>
                      <li><a href="/systems"> systems</a></li>
-                    <li><a href="/research">research</a></li>
+                    <li><a href="/research"> research</a></li>
                  </ul>
             </div>
+             </div>
         </nav>
 
-        
-    <h1> who am i exactly?</h1>
+        <section>
+    <h1> what am i into?</h1>
+    </section>
 
-
-       
-            <p class="p1"> there's a lot to know about me, but to give you the rundown: </p>
-      
+        <section>
+            <p class="p1"> i have a lot of interests, to name a few: </p>
+        </section>
 
     <section>
            <ul>
-            <li>name / david busha</li>
-            <li>origin / toronto, of ethiopian descent</li>
-            <li>residency / moved to ethiopia at 6</li>
-            <li>timeline / lived and operated here for the past decade</li>
+            <li><a href="/coding">coding / programming ↗</a></li>
+            <li><a href="/football">football / soccer ↗</a></li>
+            <li><a href="/reading">reading ↗</a></li>
+            <li><a href="/journaling">journaling / writing ↗</a></li>
            </ul>
     </section>
-   
 
-    
-    <h2> achievements (so far)</h2>
-    
-<section>
-            <ul>
-            <li>silver-medalist at the 6th african spelling bee (2x appearances for ethiopia)</li>
-            <li>live in ethiopia for 10 years</li>
-            <li>completed sophomore year</li>
-           </ul>
-        </section>
-   
+    <section>
+    <h2> what i wanna do later in life</h2>
+    </section>
+    <section>
 
-        <section>
+        <p class="p2">After high-school, I plan on majoring in computer science or business analytics.</p>
 
-            <p class="p2">copyright © 2026 David Busha. all rights reserved.</p>
 
-        </section>
+
+
+
+
+
+    </section>
+
+    <section>
+
+            <p class="p3">copyright © 2026 David Busha. all rights reserved.</p>
+
+    </section>
 </body>
 </html>
